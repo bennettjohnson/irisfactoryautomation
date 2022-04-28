@@ -1,0 +1,5 @@
+chart/node_modules/*
+server/node_modules/*
+chart/dist/*
+server/dist/*
+.env

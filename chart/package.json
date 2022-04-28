@@ -1,0 +1,23 @@
+{
+  "name": "chart",
+  "version": "1.0.0",
+  "description": "A simple chart web application for Iris Factory Automation",
+  "scripts": {
+    "start": "parcel src/index.html",
+    "build": "parcel build"
+  },
+  "author": "Bennett Johnson",
+  "license": "ISC",
+  "devDependencies": {
+    "buffer": "^6.0.3",
+    "os-browserify": "^0.3.0",
+    "parcel": "^2.5.0",
+    "path-browserify": "^1.0.1",
+    "process": "^0.11.10"
+  },
+  "dependencies": {
+    "react": "^17.0.0",
+    "react-dom": "^17.0.0",
+    "react-google-charts": "^4.0.0"
+  }
+}

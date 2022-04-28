@@ -1,0 +1,4 @@
+{
+    "failure" : "http://localhost:3001/api/get/failure",
+    "chart" : "http://localhost:3001/api/get/chart"
+}
