@@ -25,4 +25,4 @@ To run the backend, while in the root of the backend, run the following command:
 > npm run dev
 
 ## The Google charts patch
-I could not include the patch to fix google charts within this repository, however I would be happy to explain how I did it.
+I could not include the patch to fix google charts within this repository, however I would be happy to explain how I did it. The Google Charts React wrapper provides undefined behavior when trying to hook the legend functionality and would need to be patched to use it in a production environment. I recommend using a different charting library that doesnt make use of AJAX.
