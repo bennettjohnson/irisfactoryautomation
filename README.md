@@ -1,5 +1,5 @@
 # Iris Factory Automation
-This is two applications, the frontend, and the backend. Named Chart and server respectively. The frontend is build with React, react-google-charts and Bootstrap. The backend is built with Express and MySQL. I've built these applications to run with parcel and nodemon. The backend requires a database to be connected to it. You can give access to the backend through a ".env" file placed in the root of the server directory. There is an "example.env" file located there to go off of. 
+This is two applications, the frontend, and the backend. Named Chart and Server respectively. The frontend is built with React, react-google-charts and Bootstrap. The backend is built with Express and MySQL. I've built these applications to run with parcel and nodemon. The backend requires a database to be connected to it. You can give access to the backend through a ".env" file placed in the root of the server directory. There is an "example.env" file located in the root to go off of. 
 
 The database consists of two tables, a "lid" table and a "failure" table. They are formatted as such:
 
